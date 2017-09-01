@@ -1,0 +1,3 @@
+STEP/DIR capture function enahncment: noise filter on STEP input and faster STEP command interrupt service
+Fixed a bug that could occur when going from enabled to disabled state; sometimes the output was stuck to a non-null value.
+Now the motor is completely unpowered when YAPSC is disabled.
